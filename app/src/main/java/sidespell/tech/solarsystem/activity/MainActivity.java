@@ -54,6 +54,25 @@ private ImageView planet;
         if(parent.getItemAtPosition(position).toString().equals("Earth")){
             img.setImageResource(R.drawable.earth);
         }
+        if(parent.getItemAtPosition(position).toString().equals("Jupiter")){
+            img.setImageResource(R.drawable.jupiter);
+        }
+        if(parent.getItemAtPosition(position).toString().equals("Saturn")){
+            img.setImageResource(R.drawable.saturn);
+        }
+        if(parent.getItemAtPosition(position).toString().equals("Neptune")){
+            img.setImageResource(R.drawable.neptune);
+        }
+        if(parent.getItemAtPosition(position).toString().equals("Venus")){
+            img.setImageResource(R.drawable.venus);
+        }
+        if(parent.getItemAtPosition(position).toString().equals("Pluto")){
+            img.setImageResource(R.drawable.pluto);}
+        if(parent.getItemAtPosition(position).toString().equals("Uranus")){
+            img.setImageResource(R.drawable.uranus);}
+
+
+
 
     }
 
